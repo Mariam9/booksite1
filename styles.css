@@ -4,48 +4,43 @@ body {
 }
 
 #header {
-	border: solid 1px red;
 	height: 45px;
+	background: #2f3649;
 }
 
 #left-menu {
-	border: solid 1px green;
 	float: left;
 	width: 200px;
+	background: #1f2638;
 }
 
 .add-book {
-	border: solid 1px black;
-	height: 120px;
+	height: 129px;
 }
 
 .statistic {
-	border: solid 1px black;
 	height: 240px;
 }
 
 .genre {
-	border: solid 1px black;
 	height: 182px;
 }
 
 .added {
-	border: solid 1px black;
 	height: 350px;
 }
 
 #content {
-	border: solid 1px brown;
 	margin-left: 200px;
 	height: 900px;
 }
 
 .available-books {
-	border: solid 1px yellow;
 	height: 120px;
+	background: #eef1f8;
 }
 
 #footer {
-	border: solid 1px grey;
 	height: 45px;
+	background: #181e2c;
 }
