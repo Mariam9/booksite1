@@ -28,8 +28,7 @@ body {
 }
 
 #header a {
-	padding-left: 21px;
-	
+	padding-left: 21px;	
 }
 
 .logo {
@@ -45,6 +44,24 @@ body {
 	height: 45px;
 	position: relative;
 	bottom: 27px;
+}
+
+.user-online a {
+	color: white;
+}
+
+.avatar {
+	float: left;
+	margin: 0;
+	position: relative;
+	right: 20px;
+	top: 6px;
+}
+
+.arrow {
+	float: right;
+	position: relative;
+	bottom: 5px;
 }
 
 #sidebar {
