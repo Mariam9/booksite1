@@ -3,17 +3,50 @@ body {
 	margin: 0;
 }
 
+.center-block {
+	margin: 0 auto;
+}
+.right-text {
+	text-align: right;
+}
+
+
+.link {
+	text-decoration: none;
+	font-size: 13px;
+	color: #78829d;
+
+}
+
+.link:hover {
+	color: black;
+}
+
 #header {
 	height: 45px;
 	background: #2f3649;
 }
 
+#header a {
+	padding-left: 21px;
+	
+}
+
 .logo {
 	width: 84px;
 	height: 12px;
-	margin: 0 auto;
 	padding-top: 15px;
 }
+
+.user-online {
+	background: #15a4fa;
+	width: 157px;
+	float: right;
+	height: 45px;
+	position: relative;
+	bottom: 27px;
+}
+
 #sidebar {
 	float: left;
 	width: 200px;
