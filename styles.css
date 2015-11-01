@@ -141,7 +141,7 @@ body {
 .search-panel {
 	height: 41px;
 	background: #eef1f8;
-	
+
 }
 .rate {
 	float: left;
@@ -156,6 +156,9 @@ body {
 	border-radius: 20px;
 }
 
+.search {
+	float: right;
+}
 
 #footer {
 	height: 45px;
