@@ -1,6 +1,7 @@
 body {
 	background: white;
 	margin: 0;
+	min-width: 660px;
 }
 
 .center-block {
