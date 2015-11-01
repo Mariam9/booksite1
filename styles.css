@@ -10,6 +10,9 @@ body {
 	text-align: right;
 }
 
+.left-text {
+	text-align: left;
+}
 
 .link {
 	text-decoration: none;
@@ -94,6 +97,20 @@ body {
 	height: 240px;
 }
 
+.statistic a {
+	display: block;
+	padding: 15px; 
+}
+
+.statistic a.first {
+	margin-top: 0;
+}
+.statistic a:hover {
+	background: #15a4fa;
+	color: white;
+	width: auto;
+
+}
 .genre {
 	height: 182px;
 }
