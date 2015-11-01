@@ -74,6 +74,22 @@ body {
 	height: 129px;
 }
 
+.add-book button {
+	width: 160px;
+	height: 44px;
+	border-radius: 5px;
+	background: #f2795a;
+	color: white;
+	vertical-align: middle;
+	position: relative;
+	margin-top: 40px;
+	margin-left: 15px;
+
+}
+
+.add-book button:hover {
+	opacity: 0.9;
+}
 .statistic {
 	height: 240px;
 }
