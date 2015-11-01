@@ -131,6 +131,12 @@ body {
 	background: #eef1f8;
 }
 
+.available-books p {
+	margin: 0;
+	font-size: 22px;
+	padding: 15px;
+}
+
 
 
 #footer {
