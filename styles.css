@@ -19,6 +19,7 @@ body {
 	text-decoration: none;
 	font-size: 13px;
 	color: #78829d;
+	padding: 10px;
 
 }
 
@@ -137,6 +138,20 @@ body {
 	padding: 15px;
 }
 
+.rate {
+	float: left;
+	position: relative;
+	top: 25px;
+	left: 2px;
+}
+
+.filter:hover {
+	background: #97b3ce;
+	color: white;
+	height: 5px;
+	width: 72px;
+	border-radius: 20px;
+}
 
 
 #footer {
