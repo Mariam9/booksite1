@@ -156,8 +156,25 @@ body {
 	border-radius: 20px;
 }
 
-.search {
+.search-field {
 	float: right;
+
+}
+
+input[type="search"] {
+	width: 400px;
+	min-height: 33px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	vertical-align: middle;
+}
+
+input[type="submit"] {
+	height: 13px;
+	width: 13px;
+	border: none;
+	background: url(img/search.png) no-repeat 50% 50%;
 }
 
 #footer {
