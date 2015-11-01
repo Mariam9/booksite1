@@ -128,7 +128,7 @@ body {
 }
 
 .available-books {
-	height: 120px;
+	height: 79px;
 	background: #eef1f8;
 }
 
@@ -138,11 +138,14 @@ body {
 	padding: 15px;
 }
 
+.search-panel {
+	height: 41px;
+	background: #eef1f8;
+	
+}
 .rate {
 	float: left;
-	position: relative;
-	top: 25px;
-	left: 2px;
+	
 }
 
 .filter:hover {
