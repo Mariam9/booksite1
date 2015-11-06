@@ -75,9 +75,6 @@ body {
 	background: #1f2638;
 }
 
-.add-book {
-	height: 129px;
-}
 
 .add-book button {
 	width: 160px;
@@ -119,7 +116,7 @@ body {
 }
 
 .added {
-	height: 350px;
+	height: 298px;
 }
 
 #content {
@@ -141,6 +138,9 @@ body {
 .search-panel {
 	height: 41px;
 	background: #eef1f8;
+	position: fixed;
+	width: 1702px;
+	
 
 }
 .rate {
@@ -178,6 +178,6 @@ input[type="submit"] {
 }
 
 #footer {
-	height: 45px;
+	height: 1245px;
 	background: #181e2c;
 }
