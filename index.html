@@ -7,6 +7,7 @@
   <meta name="description" content="Books">
   <meta name="author" content="SitePoint">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
@@ -17,15 +18,20 @@
 </head>
 <body>
 <div id="header">
-  <div class="center-block logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
-  <div class="user-online">
-   <a href="#" class="avatar"><img src="img/avatar.png"></a>
-   <a href="#" class="link">John Doe</a>
-   <a href="#" class="arrow"><img src="img/arrow.png"></a>
+  <div class="center-block logo">
+    <a href="#"><img src="img/logo.png" alt="logo"></a>
   </div>
-  <div class="right-text">
-   <a href="#" class="link">Help Center</a>
-   <a href="#" class="link">Our Support</a>
+  <div class="profile-block">
+    <div class="user-online push-right">
+     <a href="#" class="avatar"><img src="img/avatar.png"></a>
+     <a href="#" class="">John Doe</a>
+     <a href="#" class="arrow"><img src="img/arrow.png"></a>
+    </div>
+    <div class="push-right help-block">
+     <a href="#" class="">Help Center</a>
+     <span class="divider"></span>
+     <a href="#" class="">Our Support</a>
+    </div>
   </div>
 </div>
 <div id="sidebar">
@@ -33,18 +39,18 @@
    <button><img src="img/add-book.png"><b>ADD A BOOK</b></button> 
   </div>
 	<div class="statistic">
-   <a href="#" class="link left-text sidebar-text first">Now Reading</a>
-   <a href="#" class="link left-text sidebar-text">Browse</a>
-   <a href="#" class="link left-text sidebar-text">Buy Books</a>
-   <a href="#" class="link left-text sidebar-text">Favourite Books</a>
-   <a href="#" class="link left-text sidebar-text">Wishlist</a>
-   <a href="#" class="link left-text sidebar-text">History</a>
+   <a href="#" class="nav-menu-icon first nav-icon-plus">Now Reading</a>
+   <a href="#" class="nav-menu-icon">Browse</a>
+   <a href="#" class="nav-menu-icon">Buy Books</a>
+   <a href="#" class="nav-menu-icon">Favourite Books</a>
+   <a href="#" class="nav-menu-icon">Wishlist</a>
+   <a href="#" class="nav-menu-icon">History</a>
   </div>
 	<div class="genre">
-   <a href="#" class="link left-text sidebar-text">Must Read Titles</a>
-   <a href="#" class="link left-text sidebar-text">Rest of the List</a> 
-   <a href="#" class="link left-text sidebar-text">Classic Novels</a>
-   <a href="#" class="link left-text sidebar-text">Non Fiction</a> 
+   <a href="#" class="sidebar-text">Must Read Titles</a>
+   <a href="#" class="sidebar-text">Rest of the List</a> 
+   <a href="#" class="sidebar-text">Classic Novels</a>
+   <a href="#" class="sidebar-text">Non Fiction</a> 
   </div>
 	<div class="added"></div>
 </div>
@@ -54,18 +60,23 @@
   </div>
   <div class="search-panel">
     <div class="rate">
-     <a href="#" class="link filter">All Books</a>
-     <a href="#" class="link filter">Most Recent</a>
-     <a href="#" class="link filter">Most Popular</a>
-     <a href="#" class="link filter">Free Books</a>
+     <a href="#" class="filter">All Books</a>
+     <a href="#" class="filter">Most Recent</a>
+     <a href="#" class="filter">Most Popular</a>
+     <a href="#" class="filter">Free Books</a>
    </div>
    <div class="search-field">
-     <input type=search placeholder="Enter keywords">
-     <input type="submit" value="">
+     <form>
+      <input type="search" placeholder="Enter keywords">
+      <input type="submit" value="">
+     </form>
    </div>
   </div>
   </div>
 </div>
 <div id="footer"></div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="common.js"></script>
 </body>
 </html>
