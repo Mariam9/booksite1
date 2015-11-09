@@ -201,8 +201,24 @@ a:hover {
 
 
 .genre {
-	height: 182px;
 	margin-top: 40px;
+}
+
+.nav-icon-must {
+	background-image: url('img/red-circle.png');
+}
+
+.nav-icon-rest {
+	background-image: url('img/orange-circle.png');
+}
+
+.nav-icon-classic {
+	background-image: url('img/blue-cicrle.png');
+
+}
+
+.nav-icon-fiction {
+	background-image: url('img/lily-circle.png');
 }
 
 .added {
