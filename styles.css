@@ -230,6 +230,10 @@ a:hover {
 	height: 298px;
 }
 
+.marked-text {
+	color: #97b3ce;
+}
+
 #content {
 	margin-left: 200px;
 	height: 900px;
