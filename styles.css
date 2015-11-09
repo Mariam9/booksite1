@@ -140,22 +140,6 @@ a:hover {
 	height: 240px;
 }
 
-.nav-icon-reading {
-	background-image: url('img/now.png');
-}
-
-.nav-icon-reading:hover {
-	background-image: none;
-}
-
-.nav-icon-browse {
-	background-image: url('img/browse.png');
-}
-
-.nav-icon-browse:hover {
-	background-image: url('img/');
-}
-
 .nav-menu-icon {
 	background-position: 16px 14px;
 	background-repeat: no-repeat;
@@ -165,6 +149,54 @@ a:hover {
 
 .nav-menu-icon:hover {
 	background-color: #15a4fa;
+}
+
+.nav-icon-reading {
+	background-image: url('img/now.png');
+}
+
+.nav-icon-reading:hover {
+	background-image: url('img/now-hover.png');
+}
+
+.nav-icon-browse {
+	background-image: url('img/browse.png');
+}
+
+.nav-icon-browse:hover {
+	background-image: url('img/browse-hover.png');
+}
+
+.nav-icon-buy {
+	background-image: url('img/buy.png');
+}
+
+.nav-icon-buy:hover {
+	background-image: url('img/buy-hover.png');
+}
+
+.nav-icon-favourite {
+	background-image: url('img/favourite.png');
+}
+
+.nav-icon-favourite:hover {
+	background-image: url('img/favourite-hover.png');
+}
+
+.nav-icon-wishlist {
+	background-image: url('img/wishlist.png');
+}
+
+.nav-icon-wishlist:hover {
+	background-image: url('img/wishlist-hover.png');
+}
+
+.nav-icon-history {
+	background-image: url('img/history.png');
+}
+
+.nav-icon-history:hover {
+	background-image: url('img/history-hover.png');
 }
 
 .sidebar-text {
