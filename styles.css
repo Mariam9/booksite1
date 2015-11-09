@@ -309,25 +309,26 @@ input[type="submit"] {
 }
 
 #footer {
-	height: 45px;
+	height: 46px;
 	background: #181e2c;
 }
 
-.settings-and-support {
-	background-color: #1f2637;
-	height: 45px;
-}
-
 .icons {
+	background-color: #1f2637;
 	display: inline-block;
 	cursor: pointer;
-	width: 55px;
+	width: 33px;
+	height: 45px;
+	padding-left: 22px;
+	padding-top: 15px;
 }
 
 .icons:hover {
 	background-color: #15a4fa;
 }
 
-.support {
 
-}
+
+
+
+
