@@ -38,6 +38,8 @@ body {
 
 p {
 	color: #6f7d95;
+	font-size: 12px;
+	line-height: 1.5;
 }
 a {
 	text-decoration: none;
@@ -228,6 +230,12 @@ a:hover {
 
 .added {
 	height: 298px;
+	margin-top: 40px;
+}
+
+.added p {
+	padding: 15px 15px 15px 45px;
+	display: block;
 }
 
 .marked-text {
@@ -301,6 +309,25 @@ input[type="submit"] {
 }
 
 #footer {
-	height: 1245px;
+	height: 45px;
 	background: #181e2c;
+}
+
+.settings-and-support {
+	background-color: #1f2637;
+	height: 45px;
+}
+
+.icons {
+	display: inline-block;
+	cursor: pointer;
+	width: 55px;
+}
+
+.icons:hover {
+	background-color: #15a4fa;
+}
+
+.support {
+
 }
