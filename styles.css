@@ -140,12 +140,20 @@ a:hover {
 	height: 240px;
 }
 
-.nav-icon-plus {
-	background-image: url('img/add-book.png');
+.nav-icon-reading {
+	background-image: url('img/now.png');
 }
 
-.nav-icon-plus:hover {
+.nav-icon-reading:hover {
 	background-image: none;
+}
+
+.nav-icon-browse {
+	background-image: url('img/browse.png');
+}
+
+.nav-icon-browse:hover {
+	background-image: url('img/');
 }
 
 .nav-menu-icon {
