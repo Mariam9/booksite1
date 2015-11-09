@@ -36,6 +36,9 @@ body {
 	font-family: ProximaNovaRegular;
 }
 
+p {
+	color: #6f7d95;
+}
 a {
 	text-decoration: none;
 	font-size: .8125em;
@@ -201,7 +204,6 @@ a:hover {
 .nav-icon-history:hover {
 	background-image: url('img/history-hover.png');
 }
-
 
 .genre {
 	margin-top: 40px;
