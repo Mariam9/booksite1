@@ -87,6 +87,9 @@ a:hover {
 	margin: 12px 12px 0 0;
 }
 
+.divider {
+	margin-left: 10px;
+}
 .user-online {
 	background: #15a4fa;
 	width: 157px;
