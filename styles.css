@@ -320,6 +320,10 @@ input[type="submit"] {
 	
 }
 
+li a:hover {
+	color: black;
+}
+
 #footer {
 	height: 46px;
 	background: #181e2c;
