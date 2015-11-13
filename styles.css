@@ -321,19 +321,18 @@ input[type="submit"] {
 }
 
 .search-result {
-	width: 80%;
 	margin: 30px;
 	overflow: hidden;
 }
 
 .search-result ul li {
 	float: left;
-	width: 16%;
-	margin: 2% 17px;
+	
 }
 
 .search-result ul li a img {
-	max-width: 100%;
+	width: 200px;
+	height: 275px;
 }
 .search-result li a:hover {
 	color: black;
