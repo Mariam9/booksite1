@@ -250,8 +250,12 @@ a:hover {
 	display: block;
 }
 
-.marked-text {
+.added a {
 	color: #97b3ce;
+}
+
+.added a:hover {
+	color: white;
 }
 
 #content {
