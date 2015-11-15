@@ -344,6 +344,34 @@ input[type="submit"] {
 
 
 
+.star-rate {
+	background: url('img/empty-star.png') repeat-x;
+	width: 70px;
+	height: 13px;
+}
+
+.real-rate {
+	background: url('img/full-star.png');
+	height: 13px;
+}
+
+.five-stars {
+	width: 100%;
+}
+
+.four-and-half-stars {
+	width: 90%
+}
+
+.four-stars {
+	width: 80%;
+}
+
+.three-and-half-stars {
+	width: 70%;
+}
+
+
 #footer {
 	height: 46px;
 	background: #181e2c;
