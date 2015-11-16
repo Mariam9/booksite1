@@ -338,11 +338,15 @@ input[type="submit"] {
 	width: 200px;
 	height: 275px;
 }
+
+li h3 a {
+	font-size: 16px;
+	color: #50586d;
+}
+
 .search-result li a:hover {
 	color: black;
 }
-
-
 
 .star-rate {
 	background: url('img/empty-star.png') repeat-x;
