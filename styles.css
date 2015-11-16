@@ -376,6 +376,9 @@ li h3 a {
 	width: 70%;
 }
 
+.clear {
+	clear: both;
+}
 
 #footer {
 	height: 46px;
