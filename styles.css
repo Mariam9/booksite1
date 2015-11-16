@@ -380,6 +380,7 @@ li h3 a {
 #footer {
 	height: 46px;
 	background: #181e2c;
+	clear: both;
 }
 
 .icons {
