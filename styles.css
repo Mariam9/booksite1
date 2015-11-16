@@ -132,10 +132,16 @@ a:hover {
 	margin-right: 10px;
 }
 
+.container {
+	margin: 0 auto;
+}
+
 #sidebar {
 	float: left;
 	width: 200px;
+	margin-right: -200px;
 	background: #1f2638;
+	position: relative;
 }
 
 
@@ -259,8 +265,8 @@ a:hover {
 }
 
 #content {
-	margin-left: 200px;
-	height: 900px;
+	float: left;
+	border-left: 200px solid #1f2638;
 }
 
 .available-books {
