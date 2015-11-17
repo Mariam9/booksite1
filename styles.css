@@ -167,62 +167,59 @@ a:hover {
 }
 
 .nav-menu-icon {
-	background-position: 20px 14px;
-	background-repeat: no-repeat;
-	padding: 15px 15px 15px 45px;
+	width: 13px;
+	height: 13px;
+	background: url("img/main-nav-sprites.png") no-repeat 0 0;
 	display: block;
 }
 
-.nav-menu-icon:hover {
-	background-color: #15a4fa;
+
+.reading {
+	background-position: 0 0;
 }
 
-.nav-icon-reading {
-	background-image: url('img/now.png');
+.reading:hover {
+	background-position: 0 -13px;
 }
 
-.nav-icon-reading:hover {
-	background-image: url('img/now-hover.png');
+.browse {
+	background-position: -13px 0;
 }
 
-.nav-icon-browse {
-	background-image: url('img/browse.png');
+.browse:hover {
+	background-position: -13px -13px;
 }
 
-.nav-icon-browse:hover {
-	background-image: url('img/browse-hover.png');
+.buy {
+	background-position: -26px 0;
 }
 
-.nav-icon-buy {
-	background-image: url('img/buy.png');
+.buy:hover {
+	background-position: -26px -13px;
 }
 
-.nav-icon-buy:hover {
-	background-image: url('img/buy-hover.png');
+.favourite {
+	background-position: -39px 0;
 }
 
-.nav-icon-favourite {
-	background-image: url('img/favourite.png');
+.favourite:hover {
+	background-position: -39px -12px;
 }
 
-.nav-icon-favourite:hover {
-	background-image: url('img/favourite-hover.png');
+.wish {
+	background-position: -52px 0;
 }
 
-.nav-icon-wishlist {
-	background-image: url('img/wishlist.png');
+.wish:hover {
+	background-position: -52px -13px;
 }
 
-.nav-icon-wishlist:hover {
-	background-image: url('img/wishlist-hover.png');
+.history {
+	background-position: -65px 0;
 }
 
-.nav-icon-history {
-	background-image: url('img/history.png');
-}
-
-.nav-icon-history:hover {
-	background-image: url('img/history-hover.png');
+.history:hover {
+	background-position: -65px -13px;
 }
 
 .genre {
