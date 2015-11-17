@@ -225,7 +225,7 @@ a:hover {
 
 
 .genre ul {
-	list-style: none;
+	list-style: disc inside none;
 	padding: 0;
 	margin: 0;
 }
@@ -234,25 +234,22 @@ a:hover {
 	padding: 10px 0 15px 20px;
 }
 
-.genre li:before {
-	content: "• ";
-}
-
-.genre li.must-read:before {
+.genre li.must-read {
 	color: #e64c66;
 }
 
-.genre li.rest-list:before {
+.genre li.rest-list {
 	color: #ffab00;
 }
 
-.genre li.classic:before {
+.genre li.classic {
 	color: #00bfdd;
 }
 
-.genre li.non-fiction:before {
+.genre li.non-fiction {
 	color: #7874cf;
 }
+
 
 .added {
 	height: 310px;
