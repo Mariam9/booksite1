@@ -228,22 +228,25 @@ a:hover {
 .genre {
 	margin-top: 40px;
 }
-
-.nav-icon-must {
-	background-image: url('img/red-circle.png');
+.genre ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
-.nav-icon-rest {
-	background-image: url('img/orange-circle.png');
+.genre li {
+	padding: 10px 0 5px 25px;
 }
 
-.nav-icon-classic {
-	background-image: url('img/blue-cicrle.png');
+.genre li:before {
+	content: "• ";
+	color: red;
 
 }
 
-.nav-icon-fiction {
-	background-image: url('img/lily-circle.png');
+.genre .rest li:before{
+	color: orange;
+	content: "• ";
 }
 
 .added {
