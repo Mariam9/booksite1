@@ -365,7 +365,7 @@ li h3 a {
 .star-rate {
 	background: url('img/empty-star.png') repeat-x;
 	width: 69px;
-	height: 13px;
+	height: 30px;
 }
 
 .real-rate {
@@ -394,7 +394,6 @@ li h3 a {
 }
 
 #footer {
-	margin-top: 10px;
 	height: 46px;
 	background: #181e2c;
 }
