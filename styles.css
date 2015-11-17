@@ -162,15 +162,14 @@ a:hover {
 .add-book button:hover {
 	opacity: 0.9;
 }
-.statistic {
-	height: 240px;
-}
+
 
 .nav-menu-icon {
 	width: 13px;
 	height: 13px;
 	background: url("img/main-nav-sprites.png") no-repeat 0 0;
 	display: block;
+	margin: 20px;
 }
 
 
@@ -222,9 +221,7 @@ a:hover {
 	background-position: -65px -13px;
 }
 
-.genre {
-	margin-top: 40px;
-}
+
 .genre ul {
 	list-style: none;
 	padding: 0;
