@@ -339,6 +339,7 @@ input[type="submit"] {
 
 .search-result {
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .search-result ul li {
@@ -393,9 +394,9 @@ li h3 a {
 }
 
 #footer {
+	margin-top: 10px;
 	height: 46px;
 	background: #181e2c;
-	clear: both;
 }
 
 .icons {
