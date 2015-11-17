@@ -168,7 +168,8 @@ a:hover {
 	background-image: url("img/main-nav-sprites.png");
 	display: inline-block;
 	background-repeat: no-repeat;
-	margin-right: 8px;
+	margin-right: 18px;
+	margin-top: 10px;
 	width: 13px;
 	height: 13px;
 }
@@ -199,19 +200,19 @@ a:hover {
 }
 
 .icon-favorite {
-	background-position: -39px 0;
+	background-position: -38px 0;
 }
 
 .nav-menu-item:hover > .icon-favorite {
-	background-position: -39px -12px;
+	background-position: -38px -13px;
 }
 
 .icon-wish {
-	background-position: -52px 0;
+	background-position: -51px 0;
 }
 
 .nav-menu-item:hover > .icon-wish {
-	background-position: -52px -13px;
+	background-position: -51px -13px;
 }
 
 .icon-history {
