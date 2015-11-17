@@ -164,60 +164,64 @@ a:hover {
 }
 
 
-.nav-menu-icon {
-	background: url("img/main-nav-sprites.png") no-repeat 0 0;
-	display: block;
-	
+.nav-menu-item > i {
+	background-image: url("img/main-nav-sprites.png");
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-right: 8px;
+	width: 13px;
+	height: 13px;
 }
 
 
-.reading {
+.icon-reading {
 	background-position: 0 0;
 }
 
-.reading:hover {
+.nav-menu-item:hover > .icon-reading {
 	background-position: 0 -13px;
 }
 
-.browse {
+.icon-browse {
 	background-position: -13px 0;
 }
 
-.browse:hover {
+.nav-menu-item:hover > .icon-browse {
 	background-position: -13px -13px;
 }
 
-.buy {
+.icon-buy {
 	background-position: -26px 0;
 }
 
-.buy:hover {
+.nav-menu-item:hover > .icon-buy {
 	background-position: -26px -13px;
 }
 
-.favourite {
+.icon-favorite {
 	background-position: -39px 0;
 }
 
-.favourite:hover {
+.nav-menu-item:hover > .icon-favorite {
 	background-position: -39px -12px;
 }
 
-.wish {
+.icon-wish {
 	background-position: -52px 0;
 }
 
-.wish:hover {
+.nav-menu-item:hover > .icon-wish {
 	background-position: -52px -13px;
 }
 
-.history {
+.icon-history {
 	background-position: -65px 0;
 }
 
-.history:hover {
+.nav-menu-item:hover > .icon-history {
 	background-position: -65px -13px;
 }
+
 
 
 .genre ul {
