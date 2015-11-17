@@ -235,18 +235,27 @@ a:hover {
 }
 
 .genre li {
-	padding: 10px 0 5px 25px;
+	padding: 10px 0 15px 20px;
 }
 
 .genre li:before {
 	content: "• ";
-	color: red;
-
 }
 
-.genre .rest li:before{
-	color: orange;
-	content: "• ";
+.genre li.must-read:before {
+	color: #e64c66;
+}
+
+.genre li.rest-list:before {
+	color: #ffab00;
+}
+
+.genre li.classic:before {
+	color: #00bfdd;
+}
+
+.genre li.non-fiction:before {
+	color: #7874cf;
 }
 
 .added {
