@@ -165,11 +165,9 @@ a:hover {
 
 
 .nav-menu-icon {
-	width: 13px;
-	height: 13px;
 	background: url("img/main-nav-sprites.png") no-repeat 0 0;
 	display: block;
-	margin: 20px;
+	
 }
 
 
