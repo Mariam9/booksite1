@@ -112,12 +112,13 @@ a:hover {
 
 .user-online a {
 	color: white;
+
 }
 
 .avatar {
 	float: left;
-	margin-top: 3px;
-	margin-left: 10px;
+	margin: 6px;
+
 }
 
 .round {
@@ -128,9 +129,8 @@ a:hover {
 .arrow {
 	float: right;
 	cursor: pointer;
-	margin-top: 15px;
-	margin-right: 10px;
-}
+	margin: 15px;
+	}
 
 .container {
 	margin: 0 auto;
