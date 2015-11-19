@@ -81,9 +81,7 @@ a:hover {
 }
 
 .logo {
-	width: 84px;
-	height: 12px;
-	padding-top: 15px;
+	width: 190px;
 }
 
 .profile-block {
@@ -168,7 +166,7 @@ a:hover {
 	background-image: url("img/main-nav-sprites.png");
 	display: inline-block;
 	background-repeat: no-repeat;
-	margin-right: 18px;
+	margin-right: 8px;
 	margin-top: 10px;
 	width: 13px;
 	height: 13px;
