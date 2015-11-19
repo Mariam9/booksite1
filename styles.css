@@ -161,7 +161,9 @@ a:hover {
 	opacity: 0.9;
 }
 
-
+.statistic ul li {
+	margin: 14px;
+}
 .nav-menu-item > i {
 	background-image: url("img/main-nav-sprites.png");
 	display: inline-block;
@@ -285,7 +287,7 @@ a:hover {
 }
 
 .search-panel {
-	height: 41px;
+	height: 46px;
 	background: #eef1f8;
 	position: fixed;
 	right: 0;
